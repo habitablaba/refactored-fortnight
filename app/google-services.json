@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "263103227588",
+    "firebase_url": "https://robotsoundboard.firebaseio.com",
+    "project_id": "robotsoundboard",
+    "storage_bucket": "robotsoundboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263103227588:android:2d30819f622c83ea",
+        "android_client_info": {
+          "package_name": "com.dignifiedmanatee.robotsoundboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263103227588-41ub8tqfrf46798r57pe2ujirf0s30ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsSDep4BKRZPO57Sz5qwV_jdudpmKnQsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

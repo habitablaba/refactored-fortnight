@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dignifiedmanatee.robotsoundboard.MainActivity">
+
+    <!-- view for AdMob Banner Ad -->
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Boop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_boop"
+            ads:layout_row="0"
+            ads:layout_column="0"
+            android:visibility="visible" />
+        <Button
+            android:text="Boop 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_boop1"
+            ads:layout_row="1"
+            ads:layout_column="0"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Beep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_beep"
+            ads:layout_row="0"
+            ads:layout_column="1"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Beep 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_beep2"
+            ads:layout_row="2"
+            ads:layout_column="1"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Boop 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_boop2"
+            ads:layout_row="2"
+            ads:layout_column="0"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Beep 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_beep1"
+            ads:layout_row="1"
+            ads:layout_column="1"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Womp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_womp"
+            ads:layout_row="0"
+            ads:layout_column="3"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Err"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_err"
+            ads:layout_row="0"
+            ads:layout_column="2"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Whrrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_whrrr"
+            ads:layout_row="1"
+            ads:layout_column="2"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Wahwah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_wah"
+            ads:layout_row="2"
+            ads:layout_column="2"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Bink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_bink"
+            ads:layout_row="1"
+            ads:layout_column="3"
+            android:visibility="visible" />
+
+        <Button
+            android:text="Bonk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_bonk"
+            ads:layout_row="2"
+            ads:layout_column="3"
+            android:visibility="visible" />
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>
